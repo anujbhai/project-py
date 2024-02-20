@@ -30,6 +30,8 @@ for i in guests:
 # announcement = 'This invitation extends now to a few more of my wellwishers, for I have arranged a bigger table for tonight\'s event.'
 # print(announcement)
 
+print(f'This invitation now extends to {len(guests)} person.')
+
 del guests[0]
 del guests[0]
 print(f'Guests remaining: {guests}')
